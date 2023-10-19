@@ -1,0 +1,29 @@
+body{
+    background-color: burlywood;
+    color: #582817;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-size: larger;
+    color: #582817;
+}
+
+h1, h2, h3, img{
+    text-decoration: underline;
+}
+
+img{
+    border: solid 7px #582817;
+}
+
+li{ 
+   margin-bottom: 5px; 
+}
+
+.list{
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
