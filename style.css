@@ -1,12 +1,14 @@
 body{
-    background-color: burlywood;
-    color: #582817;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./images/wood.jpg);
+    background-size: 100% 100%
 }
 a{
     font-size: larger;
     color: #582817;
+    display: block;
+}
+h1{
+    padding-top: 20px;
 }
 
 h1, h2, h3, img{
@@ -15,6 +17,8 @@ h1, h2, h3, img{
 
 img{
     border: solid 7px #582817;
+    display: block;
+    margin: auto;
 }
 
 li{ 
@@ -32,14 +36,29 @@ li{
 }
 
 .front-page{
-    width: 90%;
-    margin: 30px;
+    width: 100%;
+    display: block;
+    margin: 10px auto;
 }
 
 .front-page li{
-    display: inline;
-    padding: 7%;
+    display: inline-block;
+    padding: 5%;
     margin: auto;
+}
+.front-page img{
+    height: 150px;
+    margin-bottom: 15px;
+}
+.recipe-card{
+    background-color: burlywood;
+    color: #582817;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 85%;
+    display: block;
+    margin: 5% auto;
+    border: solid 7px #582817;
 }
 
 
