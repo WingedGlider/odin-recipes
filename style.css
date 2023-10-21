@@ -30,3 +30,16 @@ li{
     margin-bottom: 30px;
     list-style-type: none;
 }
+
+.front-page{
+    width: 90%;
+    margin: 30px;
+}
+
+.front-page li{
+    display: inline;
+    padding: 7%;
+    margin: auto;
+}
+
+
